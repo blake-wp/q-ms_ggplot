@@ -3,6 +3,10 @@ Plotting quantitative mass spec data with ggplot
 Blake Paget
 2021
 
+- [Background](#background)
+- [R script](#r-script)
+- [Summary](#summary)
+
 ## Background
 
 The full methodology and underlying data (as supplementary) can be found
@@ -350,13 +354,12 @@ ggplot(data = df,
 
 ## Summary
 
-The way the data was collected made it difficult to make the comparisons
-we set out to make. This graph is OK for a scientific research article
-but far too complicated to present to stakeholders without a science
-background. Obvioulsy if all data were collected in the same manner then
-relative quantities could be compared between the three sample types.
-Graphs would most likely be grouped by MRJPs, known enzymes, remaining
-characterised proteins and uncharacterised proteins for better clarity
-and ease of interpretation with all three sample types compared in
-grouped bars.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> *End of document*
+The way the data was collected made it difficult to compare samples in
+the manner we would have liked. Obvioulsy if all data were collected in
+the same way then relative quantities could be compared between the
+three sample types. Graphs would most likely be grouped by MRJPs, known
+enzymes, remaining characterised proteins and uncharacterised proteins
+for better clarity and ease of interpretation with all three sample
+types compared in grouped bars.<br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> *End of
+document*
