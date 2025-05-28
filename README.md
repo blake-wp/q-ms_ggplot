@@ -1,7 +1,12 @@
+
 Plotting quantitative mass spec data with ggplot
 ================
 Blake Paget
 2021
+
+- [Background](#background)
+- [R script](#r-script)
+- [Summary](#summary)
 
 ## Background
 
@@ -269,7 +274,7 @@ df <- df %>% mutate(Mean = ifelse(Comparison == "M_vs_R" & Protein.Description =
 Some plot variables can be defined prior to the call to ggplot to tidy
 up that code. If multiple graphs were to be produced then some of the
 core theme components could be grouped under a single variable just like
-the built-int themes are e.g. theme_classic(), theme_minimal(). It might
+the built-int themes are e.g. theme_classic(), theme_minimal(). It might
 be that one of these built-in themes is very close to what I have
 produced here. <br>
 
@@ -350,13 +355,12 @@ ggplot(data = df,
 
 ## Summary
 
-The way the data was collected made it difficult to make the comparisons
-we set out to make. This graph is OK for a scientific research article
-but far too complicated to present to stakeholders without a science
-background. Obvioulsy if all data were collected in the same manner then
-relative quantities could be compared between the three sample types.
-Graphs would most likely be grouped by MRJPs, known enzymes, remaining
-characterised proteins and uncharacterised proteins for better clarity
-and ease of interpretation with all three sample types compared in
-grouped bars.<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> *End of document*
+The way the data was collected made it difficult to compare samples in
+the manner we would have liked. Obvioulsy if all data were collected in
+the same way then relative quantities could be compared between the
+three sample types. Graphs would most likely be grouped by MRJPs, known
+enzymes, remaining characterised proteins and uncharacterised proteins
+for better clarity and ease of interpretation with all three sample
+types compared in grouped bars.<br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> *End of
+document*
