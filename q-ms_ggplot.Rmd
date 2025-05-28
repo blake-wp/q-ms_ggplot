@@ -2,15 +2,11 @@
 title: "Plotting quantitative mass spec data with ggplot"
 author: "Blake Paget"
 date: '2021'
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, out.width = '100%')
-```
-
-```{r working_dir, message=FALSE, warning=FALSE, include=FALSE}
-setwd("C:/Users/blakep/Documents/ManukaMed/R/MS-quant/")
 ```
 
 ## Background
