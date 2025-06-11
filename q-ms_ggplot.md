@@ -39,10 +39,6 @@ Notes on the data received:<br>
   in the exact same manner. However, it transpired that the clover
   samples were apparently not concentrated enough to run a 90 minute
   gradient, so instead this was shortened to a 60 minute gradient.
-- The loss of clover protein must have occured during MS prep as all
-  submitted samples were a similar concentration.
-- Unfortunately we were not informed prior to the analysis and could
-  easily have supplied more concentrated samples.
 - The royal jelly samples were therefore separated over 90 and 60 minute
   gradients. Hence the data only allows accurate comparison of manuka to
   royal jelly and separately clover to royal jelly.<br> <br>
@@ -273,7 +269,7 @@ df <- df %>% mutate(Mean = ifelse(Comparison == "M_vs_R" & Protein.Description =
 Some plot variables can be defined prior to the call to ggplot to tidy
 up that code. If multiple graphs were to be produced then some of the
 core theme components could be grouped under a single variable just like
-the built-int themes are e.g. theme_classic(), theme_minimal(). It might
+the built-in themes are e.g. theme_classic(), theme_minimal(). It might
 be that one of these built-in themes is very close to what I have
 produced here. <br>
 
@@ -349,8 +345,9 @@ ggplot(data = df,
              labeller = as_labeller(comparison_names))
 ```
 
-<img src="q-ms_ggplot_files/figure-gfm/plot-1.png" width="100%" /> <br>
-<br> <br>
+<img src="q-ms_ggplot_files/figure-gfm/plot-1.png" width="100%" />
+
+<br> <br> <br>
 
 ## Summary
 
